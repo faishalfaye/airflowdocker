@@ -55,10 +55,10 @@ x-airflow-common:
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
-    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: mysql://root:root@34.171.195.135/airflow
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: mysql://root:root@34.171.195.135/forairflow
     # For backward compatibility, with Airflow <2.3
-    AIRFLOW__CORE__SQL_ALCHEMY_CONN: mysql://root:root@34.171.195.135/airflow
-    AIRFLOW__CELERY__RESULT_BACKEND: db+mysql://root:root@34.171.195.135/airflow
+    AIRFLOW__CORE__SQL_ALCHEMY_CONN: mysql://root:root@34.171.195.135/forairflow
+    AIRFLOW__CELERY__RESULT_BACKEND: db+mysql://root:root@34.171.195.135/forairflow
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: ''
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
