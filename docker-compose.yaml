@@ -73,10 +73,10 @@ x-airflow-common:
     # for other purpose (development, test and especially production usage) build/extend Airflow image.
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
   volumes:
-    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
-    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
-    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
-    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - /home/zyrazed/airflow-setup/dags:/opt/airflow-setup/dags
+    - /home/zyrazed/airflow-setup/logs:/opt/airflow-setup/logs
+    - /home/zyrazed/airflow-setup/config:/opt/airflow-setup/config
+    - /home/zyrazed/airflow-setup/plugins:/opt/airflow-setup/plugins
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -245,8 +245,8 @@ services:
           echo "   https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#before-you-begin"
           echo
         fi
-        mkdir -p /sources/logs /sources/dags /sources/plugins
-        chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
+        mkdir -p /home/zyrazed/airflow-setup/logs /home/zyrazed/airflow-setup/dags /home/zyrazed/airflow-setup/plugins
+        chown -R "${AIRFLOW_UID}:0" /home/zyrazed/airflow-setup/{logs,dags,plugins}
         exec /entrypoint airflow version
     # yamllint enable rule:line-length
     environment:
