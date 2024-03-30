@@ -36,5 +36,6 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.1/docker-compose.y
 
 4. Edit docker-compose.yaml
 
-- remove some lines
+- remove these
+![Alt text]([/relative/path/to/img.jpg?raw=true](https://github.com/faishalfaye/airflowdocker/blob/main/screenshots/Screenshot%202024-03-30%20163330.png) "Optional Title")
 - 
