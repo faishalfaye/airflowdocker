@@ -29,10 +29,10 @@ I wanted to install Airflow 2.6.1 in Docker with a local MySql Database as backe
   
 
 3. Fetch docker-compose.yaml
-
+- create my airflow directory like mkdir airflowdocker, and then cd airflowdocker
+- run this command
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.1/docker-compose.yaml'
 
-  
 
 4. Edit docker-compose.yaml
 
@@ -50,3 +50,9 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.1/docker-compose.y
   <a href="https://https://github.com/faishalfaye/airflowdocker">
     <img src="https://github.com/faishalfaye/airflowdocker/assets/55538047/4471ee17-62b3-4bf4-91ca-f74503bc4685" alt="Logo" width="1250" height="100">
   </a>
+
+5. run these in airflowdocker
+mkdir -p ./dags ./logs ./plugins ./config
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+docker compose up
+   
