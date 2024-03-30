@@ -84,20 +84,6 @@ x-airflow-common:
       condition: service_healthy
 
 services:
-  # mysql:
-  #  build:
-  #   context: .
-  #   dockerfile: /Users/faishalrayyan/Documents/Programming/airflowdocker/dockerfile
-  #  ports:
-  #    - "3306:3306"
-  #  environment:
-  #    - MYSQL_ROOT_PASSWORD=rootroot
-  #    - MYSQL_DATABASE=airflow_db
-  # #  volumes:
-  # #    - /usr/local/mysql/data/:/var/lib/mysql
-  #  extra_hosts:
-  #    - "host.docker.internal:host-gateway"
-
   redis:
     image: redis:latest
     expose:

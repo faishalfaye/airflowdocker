@@ -275,3 +275,38 @@ NameError: name 'timedelta' is not defined
 [2024-03-30T08:25:57.205+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:25:57.204+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-03-30T08:25:57.284+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:25:57.284+0000] {dag.py:3490} INFO - Setting next_dagrun for a_test_dag to 2024-03-30T00:00:00+00:00, run_after=2024-03-31T00:00:00+00:00
 [2024-03-30T08:25:57.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test.py took 0.185 seconds
+[2024-03-30T08:26:27.504+0000] {processor.py:157} INFO - Started process (PID=702) to work on /opt/airflow/dags/test.py
+[2024-03-30T08:26:27.505+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-03-30T08:26:27.506+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:26:27.506+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-03-30T08:26:27.520+0000] {processor.py:836} INFO - DAG(s) dict_keys(['a_test_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-03-30T08:26:27.579+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:26:27.578+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-30T08:26:27.611+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:26:27.610+0000] {dag.py:3490} INFO - Setting next_dagrun for a_test_dag to 2024-03-30T00:00:00+00:00, run_after=2024-03-31T00:00:00+00:00
+[2024-03-30T08:26:27.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test.py took 0.152 seconds
+[2024-03-30T08:26:57.905+0000] {processor.py:157} INFO - Started process (PID=763) to work on /opt/airflow/dags/test.py
+[2024-03-30T08:26:57.907+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-03-30T08:26:57.908+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:26:57.908+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-03-30T08:26:57.919+0000] {processor.py:836} INFO - DAG(s) dict_keys(['a_test_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-03-30T08:26:57.966+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:26:57.965+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-30T08:26:57.995+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:26:57.995+0000] {dag.py:3490} INFO - Setting next_dagrun for a_test_dag to 2024-03-30T00:00:00+00:00, run_after=2024-03-31T00:00:00+00:00
+[2024-03-30T08:26:58.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test.py took 0.130 seconds
+[2024-03-30T08:27:28.216+0000] {processor.py:157} INFO - Started process (PID=823) to work on /opt/airflow/dags/test.py
+[2024-03-30T08:27:28.217+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-03-30T08:27:28.218+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:27:28.218+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-03-30T08:27:28.230+0000] {processor.py:836} INFO - DAG(s) dict_keys(['a_test_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-03-30T08:27:28.282+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:27:28.282+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-30T08:27:28.311+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:27:28.311+0000] {dag.py:3490} INFO - Setting next_dagrun for a_test_dag to 2024-03-30T00:00:00+00:00, run_after=2024-03-31T00:00:00+00:00
+[2024-03-30T08:27:28.347+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test.py took 0.134 seconds
+[2024-03-30T08:27:58.484+0000] {processor.py:157} INFO - Started process (PID=884) to work on /opt/airflow/dags/test.py
+[2024-03-30T08:27:58.487+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-03-30T08:27:58.488+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:27:58.487+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-03-30T08:27:58.497+0000] {processor.py:836} INFO - DAG(s) dict_keys(['a_test_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-03-30T08:27:58.543+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:27:58.543+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-30T08:27:58.571+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:27:58.570+0000] {dag.py:3490} INFO - Setting next_dagrun for a_test_dag to 2024-03-30T00:00:00+00:00, run_after=2024-03-31T00:00:00+00:00
+[2024-03-30T08:27:58.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test.py took 0.125 seconds
+[2024-03-30T08:28:29.185+0000] {processor.py:157} INFO - Started process (PID=945) to work on /opt/airflow/dags/test.py
+[2024-03-30T08:28:29.186+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-03-30T08:28:29.186+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:28:29.186+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-03-30T08:28:29.197+0000] {processor.py:836} INFO - DAG(s) dict_keys(['a_test_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-03-30T08:28:29.239+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:28:29.239+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-03-30T08:28:29.266+0000] {logging_mixin.py:149} INFO - [2024-03-30T08:28:29.266+0000] {dag.py:3490} INFO - Setting next_dagrun for a_test_dag to 2024-03-30T00:00:00+00:00, run_after=2024-03-31T00:00:00+00:00
+[2024-03-30T08:28:29.302+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test.py took 0.121 seconds
