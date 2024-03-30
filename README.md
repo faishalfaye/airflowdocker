@@ -48,5 +48,5 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.1/docker-compose.y
 - replace these
 <p align="center">
   <a href="https://https://github.com/faishalfaye/airflowdocker">
-    <img src="https://github.com/faishalfaye/airflowdocker/assets/55538047/4471ee17-62b3-4bf4-91ca-f74503bc4685" alt="Logo" width="725" height="300">
+    <img src="https://github.com/faishalfaye/airflowdocker/assets/55538047/4471ee17-62b3-4bf4-91ca-f74503bc4685" alt="Logo" width="1000" height="300">
   </a>
