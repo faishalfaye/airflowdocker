@@ -55,4 +55,12 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.1/docker-compose.y
 - mkdir -p ./dags ./logs ./plugins ./config
 - echo -e "AIRFLOW_UID=$(id -u)" > .env
 - docker compose up
+
+helper links
+https://stackoverflow.com/questions/71815196/airflow-up-and-running-but-airflow-cfg-file-not-found
+https://www.youtube.com/watch?v=EF6fqnnl3Uk
+https://www.youtube.com/watch?v=zRfI79BHf3k
+https://docs.sqlalchemy.org/en/14/core/engines.html#supported-databases
+
+
    
