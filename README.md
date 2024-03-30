@@ -62,6 +62,7 @@ helper links
 - https://www.youtube.com/watch?v=zRfI79BHf3k
 - https://docs.sqlalchemy.org/en/14/core/engines.html#supported-databases
 - https://stackoverflow.com/questions/44543842/how-to-connect-locally-hosted-mysql-database-with-the-docker-container
-
+- https://stackoverflow.com/questions/4448467/cant-connect-to-local-mysql-server-through-socket-var-lib-mysql-mysql-sock
+- https://stackoverflow.com/questions/41995912/macos-cant-start-mysql-server
 
    
